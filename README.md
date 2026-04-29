@@ -22,9 +22,9 @@ Gauss yumuşatma, CLAHE kontrast iyileştirme, Canny kenar tespiti ve ORB öznit
 
 | Deney | gaussian_sigma | clahe_clip | canny_low | canny_high | Toplam Kontur | Geçerli Kontur | ORB Nokta | Ort. Dairesellik | Ort. Alan |
 |-------|---------------|------------|-----------|------------|---------------|----------------|-----------|------------------|-----------|
-| Deney 1 (Varsayılan) | 1.5 | 2.0 | 50 | 150 | [değer] | [değer] | [değer] | [değer] | [değer] |
-| Deney 2 (Agresif Kenar) | 1.5 | 2.0 | 30 | 90 | [değer] | [değer] | [değer] | [değer] | [değer] |
-| Deney 3 (Güçlü Yumuşatma) | 3.0 | 2.0 | 50 | 150 | [değer] | [değer] | [değer] | [değer] | [değer] |
+| Deney 1 (Varsayılan) | 1.5 | 2.0 | 50 | 150 | 334 | 2 | 500 | 0.010 | 839.8 |
+| Deney 2 (Agresif Kenar) | 1.5 | 2.0 | 30 | 90 | 612 | 2 | 500 | 0.010 | 839.8 |
+| Deney 3 (Güçlü Yumuşatma) | 3.0 | 2.0 | 50 | 150 | 316 | 0 | 500 | 0.000 | 0.0 |
 
 ---
 
